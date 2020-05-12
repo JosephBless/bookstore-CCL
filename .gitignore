@@ -32,4 +32,3 @@ pip-delete-this-directory.txt
 # Django stuff:
 *.log
 *.pot
-*.sqlite3
