@@ -27,7 +27,7 @@ isbn_list_of_dicts = []
 
 def home(request):
     #TODO: add functionality
-    if request.user.is_authenticated():
+    if request.user.is_authenticated:
         recommended = query(request.user.id, 'recommend')
         request.session['recommended'] = recommended
         request.session.modified = True

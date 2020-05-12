@@ -1,7 +1,7 @@
 from django import forms
 from django.contrib.auth.models import User
 from .models import Profile, Book
-from django.forms.extras import SelectDateWidget
+# from django.forms.extras import SelectDateWidget
 
 class SearchForm(forms.Form):
     search_value = forms.CharField(label='Search', max_length=100)
