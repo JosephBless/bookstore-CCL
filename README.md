@@ -1,4 +1,6 @@
-# Online Bookstore
+# Online Bookstore -- Heroku 
+
+Link: https://bookstore-django-ccl.herokuapp.com/bookstore/
 
 ## Setup
 1. Install virtualenv to create isolated Python environment. `pip install virtualenv`.
