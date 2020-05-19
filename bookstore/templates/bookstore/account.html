@@ -50,13 +50,13 @@
                     ISBN13: {{ order.isbn13 }}
                   </p>
                   <p>
-                    Price: ${{ order.price }}
+                    Price: ₹{{ order.price }}
                   </p>
                   <p>
                     Quantity: {{ order.quantity }}
                   </p>
                   <p>
-                    Total Order Cost: ${{ order.total_cost }}
+                    Total Order Cost: ₹{{ order.total_cost }}
                   </p>
                 </li>
                 {% endfor %}

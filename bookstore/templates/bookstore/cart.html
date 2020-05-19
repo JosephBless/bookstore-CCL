@@ -25,7 +25,7 @@
               {% endif %}
             {% endfor %}
             <br>
-            <p class="w3-text-dark-grey">Price: ${{item.isbn13.price}}</p>
+            <p class="w3-text-dark-grey">Price: ₹{{item.isbn13.price}}</p>
             <p class="w3-text-dark-grey">In Stock: {{item.isbn13.num_copies}}</p>
             {% for book in not_enough %}
               {{book.isbn13}}
@@ -90,7 +90,7 @@
             </div>
             <script>
                 var c = {{item.isbn13.price}}*{{item.num_order}};
-                document.getElementById({{item.id}}).innerHTML='$'+c.toFixed(2);
+                document.getElementById({{item.id}}).innerHTML='₹'+c.toFixed(2);
             </script>
 
             <br>
